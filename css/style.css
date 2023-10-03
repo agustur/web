@@ -1,0 +1,133 @@
+/* Estilos generales */
+body {
+  font-family: 'Orbitron', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #181818;
+}
+
+/* Estilos para el navbar */
+.navbar {
+  background-color: #f0f0f0;
+  color: #232323;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 80px; /* Agrega un margen inferior de 20px */
+}
+
+.navbar-left img {
+  max-height: 40px;
+}
+
+.navbar-right ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  font-weight: 150 !important;
+}
+
+.navbar-right li {
+  margin-right: 20px;
+}
+
+/* Estilos para los enlaces en el navbar */
+.navbar-right a {
+  text-decoration: none;
+  color: #000000; /* Cambia el color del texto a negro */
+  font-size: 23px;
+  transition: color 0.3s ease; /* Transición de color al pasar el mouse */
+}
+
+/* Estilos para hover (cambio de color al pasar el mouse) */
+.navbar-right a:hover {
+  color: #e74c3c; /* Cambia el color al pasar el mouse */
+}
+
+@font-face {
+  font-family: 'Orbitron';
+  src: url('../font/Orbitron-VariableFont_wght.ttf') format('truetype');
+  /* Agrega otros formatos de fuente si los tienes disponibles */
+}
+
+.container {
+  display: flex;
+  overflow: hidden; /* Oculta el contenido que se desborde */
+}
+
+/* Estilos para la imagen en el lado izquierdo */
+.left-image img {
+  width: 100%; /* Establece el ancho al 40% del ancho de su contenedor */
+  max-width: 100%; /* Limita el ancho máximo al tamaño original de la imagen */
+  height: auto; /* Mantiene la proporción original de la imagen */
+  border-top-right-radius: 20px; /* Borde superior derecho redondeado */
+  border-bottom-right-radius: 20px; /* Borde inferior derecho redondeado */
+  border-top-left-radius: 0; /* Borde superior izquierdo no redondeado */
+  border-bottom-left-radius: 0; /* Borde inferior izquierdo no redondeado */
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+/* Estilos para el texto alineado a la izquierda */
+.left-aligned-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Estilos para el título "Lenguajes", "De", y "Programación" */
+.left-aligned-text h2 {
+  font-size: 65px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+/* Estilos para el nuevo div "topics-container" */
+.topics-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Estilos para el título "Temas a tratar" */
+.topics-container h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para el contenedor de los rectángulos de temas */
+.topics {
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+}
+
+/* Estilos para los rectángulos de temas */
+.topic {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  transition: background-color 0.3s, transform 0.3s;
+  width: 250px; /* Ancho fijo */
+  height: 350px; /* Alto fijo */
+}
+
+/* Establece un margen derecho para los rectángulos para separarlos */
+.topic + .topic {
+  margin-left: 20px;
+}
+
+.topic:hover {
+  transform: scale(1.1);
+}

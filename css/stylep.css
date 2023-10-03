@@ -1,0 +1,63 @@
+/* Estilos para el nuevo div "topics-container" */
+.topics-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilos para el título "Temas a tratar" */
+.topics-container h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el contenedor de los rectángulos de temas */
+.topics {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+
+/* Estilos para los rectángulos de temas */
+.topic {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+    width: 200px; /* Ancho fijo */
+    height: 200px; /* Alto fijo */
+}
+
+/* Establece un margen derecho para los rectángulos para separarlos */
+.topic + .topic {
+    margin-left: 20px;
+}
+
+.topic:hover {
+    background-color: #e74c3c;
+    transform: scale(1.1);
+}
+
+/* Estilos para el nuevo div "code-examples" */
+.code-examples {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilos para los ejemplos de código */
+.code-sample {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+    width: 300px; /* Ancho fijo */
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px;
+}
