@@ -163,11 +163,6 @@ body li{
     margin-bottom: 10px;
 }
 
-.section-text {
-    color: #f0f0f0;
-    margin-bottom: 10px;
-}
-
 .custom-list {
     list-style: none;
     padding: 4px;
@@ -189,6 +184,14 @@ body li{
     left: -20px;
     }
 
+.custom-list a{
+    text-decoration: none;
+    color: green;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+}
+
 .section strong {
 color: darkkhaki;
 }
@@ -204,21 +207,8 @@ color: darkkhaki;
     height: 100%;
 }
 
-.custom-list1 {
-    list-style: none;
-    padding: 4px;
-    margin: 0;
-    margin-left: 20px;
-}
-
-.custom-list1 li {
-    color: #f0f0f0;
-    margin-bottom: 15px;
-    position: relative;
-}
-
-.vid2 img{
-    width: 60%;
+.asa img{
+    width: 40%;
     max-width: 100%;
     height: auto;
     border-top-right-radius: 20px;
@@ -228,8 +218,8 @@ color: darkkhaki;
     height: 100%;
 }
 
-.vid3 img{
-    width: 80%;
+.asd img{
+    width: 100%;
     max-width: 100%;
     height: auto;
     border-top-right-radius: 20px;
@@ -237,23 +227,4 @@ color: darkkhaki;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     height: 100%;
-}
-
-.asd ul{
-    list-style-type: none;
-}
-
-.asd li{
-    padding: 5px;
-}
-
-.asd strong{
-    color: yellowgreen;
-}
-.videojuegos-type {
-    font-size: 22px;
-}
-
-.videojuegos-type1 {
-    color: darkkhaki;
 }

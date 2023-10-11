@@ -141,7 +141,7 @@ body p{
   border-radius: 10px;
   transition: background-color 0.3s, transform 0.3s;
   width: 250px;
-  height: 350px;
+  height: 300px;
 }
 
 .topic-link {
@@ -172,4 +172,27 @@ body p{
   .content {
     flex: 100%; /* Toma el ancho completo en pantallas pequeñas */
   }
+}
+
+.link {
+  background-color: #232323;
+  border-radius: 15px;
+  margin: 40px auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 80%;
+  width: 100%;
+}
+
+.link h2{
+  color: salmon;
+  font-size: 25px;
+}
+
+.link a{
+  text-decoration: none;
+  color: crimson;
+  border: solid 2px black;
+  border-radius: 20px;
+  padding: 5px;
 }

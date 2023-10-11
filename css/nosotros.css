@@ -1,0 +1,151 @@
+body {
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #181818;
+    color: #f0f0f0;
+  }
+  
+  body p{
+    font-size: 18px;
+  }
+  
+  body li{
+    font-size: 18px;
+  }
+  
+  /* Estilos para el navbar */
+  .navbar {
+    background-color: #262626;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+  
+  .navbar-left ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    font-weight: 400;
+  }
+  
+  .navbar-left li {
+    margin-right: 20px;
+  }
+  
+  /* Estilos para los enlaces en el navbar */
+  .navbar-left a {
+    text-decoration: none;
+    color: #f0f0f0;
+    font-size: 23px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-left a:hover {
+    color: #49FF20;
+  }
+  
+  .navbar-right ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    font-weight: 400;
+  }
+  
+  .navbar-right li {
+    margin-right: 20px;
+  }
+  
+  /* Estilos para los enlaces en el navbar */
+  .navbar-right a {
+    text-decoration: none;
+    color: #f0f0f0;
+    font-size: 23px;
+    transition: color 0.3s ease;
+  }
+  
+  /* Estilos para hover (cambio de color al pasar el mouse) */
+  .navbar-right a:hover {
+    color: #49FF20;
+  }
+  
+  @font-face {
+    font-family: 'Orbitron';
+    src: url('../font/Orbitron-VariableFont_wght.ttf') format('truetype');
+  }
+
+.inicio {
+    background-color: #232323;
+    border-radius: 15px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 80%;
+    width: 100%;
+}
+
+.topics-container h1{
+    text-align: center;
+}
+
+.topics-container {
+    text-align: center;
+    margin-top: 2%; /* Ajustado el margen superior para pantallas más pequeñas */
+  }
+  
+  /* Estilos para el título "Temas a tratar" */
+  .topics-container h2 {
+    font-size: 24px; /* Tamaño de fuente fijo para pantallas más pequeñas */
+    margin-bottom: 2%; /* Ajustado el margen inferior para pantallas más pequeñas */
+    color: #49FF20;
+  }
+  .topics-container h1 {
+    color: salmon;
+  }
+  
+  /* Estilos para el contenedor de los rectángulos de temas */
+  .topics {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas pequeñas */
+    justify-content: center;
+  }
+  
+  /* Estilos para los rectángulos de temas */
+  .topic {
+    background-color: #262626;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 20%;
+    height: 100%;
+    width: 250px;
+    height: 470px;
+  }
+  
+  /* Establece un margen derecho para los rectángulos para separarlos */
+  .topic + .topic {
+    margin-left: 20px;
+  }
+
+.topic img{
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.topic2 {
+    background-color: #262626;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 20%;
+    height: 100%;
+    width: 250px;
+    height: 180px;
+  }
