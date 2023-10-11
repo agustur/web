@@ -80,13 +80,6 @@ body li{
   src: url('../font/Orbitron-VariableFont_wght.ttf') format('truetype');
 }
 
-/* Estilos para la imagen y el contenido */
-.programming-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
 .container {
   display: flex;
   flex-direction: row; /* Cambia la dirección a horizontal */
@@ -356,7 +349,7 @@ body li{
 .custom-list li {
   font-size: 18px;
   color: #f0f0f0;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   position: relative;
 }
 
@@ -366,6 +359,20 @@ body li{
   font-size: 18px;
   position: absolute;
   left: -20px;
+}
+
+.custom-list1 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 20px;
+}
+
+.custom-list1 li {
+  font-size: 18px;
+  color: #f0f0f0;
+  margin-bottom: 15px;
+  position: relative;
 }
 
 /* Estilos para el bloque de código dentro de la sección */
