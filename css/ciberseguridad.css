@@ -228,3 +228,14 @@ color: darkkhaki;
     border-bottom-left-radius: 20px;
     height: 100%;
 }
+
+.hola img{
+    width: 60%;
+    max-width: 100%;
+    height: auto;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 100%;
+}
