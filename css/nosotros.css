@@ -151,5 +151,11 @@ body {
   }
 
 .subrayado{
-  text-decoration: underline 3px rgb(122, 0, 0);
+  text-decoration: underline 3px rgb(184, 16, 16);
   }
+
+  .topic2 h2.LuisanaMiAmor {
+    font-size: 24px;
+    margin-bottom: 2%;
+    color: rgb(184, 16, 16); 
+}
